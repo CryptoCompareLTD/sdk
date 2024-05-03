@@ -140,7 +140,7 @@ outer:
 
 			log.Printf("Processing buffered updates: %d\n", len(d.bufferedCadliTicks))
 
-			// Example: write buffered updates
+			// Example: write buffered updates & clear the buffer
 			d.bufferedCadliTicks = d.bufferedCadliTicks[len(d.bufferedCadliTicks):]
 		}
 	}
